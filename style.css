@@ -1,0 +1,36 @@
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+body {
+    background-color: darkgray;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: navy;
+}
+
+p {
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#logo {
+    float: right;
+    margin: 0.5em 1em;
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
