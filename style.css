@@ -7,6 +7,10 @@ a:hover {
     color: darkgreen;
 }
 
+a:active {
+    color: white;
+}
+
 body {
     background-color: darkgray;
     max-width: 800px;
@@ -19,11 +23,30 @@ h1 {
 
 h2 {
     color: navy;
+    margin: 0.5em 0.25em;
+}
+
+h3 {
+    margin: 0.5em 1em;
+}
+
+h4 {
+    margin: 0.25em 1.75em;
 }
 
 p {
     color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+p a {
+    color: #333;
+    margin: 0.25em 0.25em;
+}
+
+ul {
+    margin: 0.5em 0.25em;
+    list-style-type: none;
 }
 
 #logo {
